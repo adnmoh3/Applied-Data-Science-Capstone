@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html><head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="week%203%20cap_files/leaflet_002.js"></script>
+    <script src="week%203%20cap_files/jquery-1.js"></script>
+    <script src="week%203%20cap_files/bootstrap.js"></script>
+    <script src="week%203%20cap_files/leaflet.js"></script>
+    <link rel="stylesheet" href="week%203%20cap_files/leaflet_003.css">
+    <link rel="stylesheet" href="week%203%20cap_files/bootstrap.css">
+    <link rel="stylesheet" href="week%203%20cap_files/bootstrap-theme.css">
+    <link rel="stylesheet" href="week%203%20cap_files/font-awesome.css">
+    <link rel="stylesheet" href="week%203%20cap_files/leaflet.css">
+    <link rel="stylesheet" href="week%203%20cap_files/leaflet_002.css">
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+            <style>
+                #map_f4b7160f6ab64b2581a336b8cce78f96 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map leaflet-container leaflet-touch leaflet-fade-anim leaflet-grab leaflet-touch-drag leaflet-touch-zoom" id="map_f4b7160f6ab64b2581a336b8cce78f96" tabindex="0" style="outline: currentcolor none medium;"><div class="leaflet-pane leaflet-map-pane" style="transform: translate3d(-9px, -5px, 0px);"><div class="leaflet-pane leaflet-tile-pane"><div class="leaflet-layer " style="z-index: 1; opacity: 1;"><div class="leaflet-tile-container leaflet-zoom-animated" style="z-index: 17; transform: translate3d(247px, 148px, 0px) scale(0.5);"></div><div class="leaflet-tile-container leaflet-zoom-animated" style="z-index: 18; transform: translate3d(247px, 148px, 0px) scale(1);"><img alt="" role="presentation" src="week%203%20cap_files/1494.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(44px, -70px, 0px); opacity: 1;"><img alt="" role="presentation" src="week%203%20cap_files/1495.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(44px, 186px, 0px); opacity: 1;"><img alt="" role="presentation" src="week%203%20cap_files/1494_004.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(-212px, -70px, 0px); opacity: 1;"><img alt="" role="presentation" src="week%203%20cap_files/1494_003.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(300px, -70px, 0px); opacity: 1;"><img alt="" role="presentation" src="week%203%20cap_files/1495_002.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(-212px, 186px, 0px); opacity: 1;"><img alt="" role="presentation" src="week%203%20cap_files/1495_003.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(300px, 186px, 0px); opacity: 1;"><img alt="" role="presentation" src="week%203%20cap_files/1493.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(44px, -326px, 0px); opacity: 1;"><img alt="" role="presentation" src="week%203%20cap_files/1493_005.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(-212px, -326px, 0px); opacity: 1;"><img alt="" role="presentation" src="week%203%20cap_files/1493_004.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(300px, -326px, 0px); opacity: 1;"><img alt="" role="presentation" src="week%203%20cap_files/1494_005.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(-468px, -70px, 0px); opacity: 1;"><img alt="" role="presentation" src="week%203%20cap_files/1494_002.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(556px, -70px, 0px); opacity: 1;"><img alt="" role="presentation" src="week%203%20cap_files/1493_002.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(-468px, -326px, 0px); opacity: 1;"><img alt="" role="presentation" src="week%203%20cap_files/1493_003.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(556px, -326px, 0px); opacity: 1;"><img alt="" role="presentation" src="week%203%20cap_files/1495_005.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(-468px, 186px, 0px); opacity: 1;"><img alt="" role="presentation" src="week%203%20cap_files/1495_004.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(556px, 186px, 0px); opacity: 1;"></div></div></div><div class="leaflet-pane leaflet-shadow-pane"></div><div class="leaflet-pane leaflet-overlay-pane"><svg pointer-events="none" class="leaflet-zoom-animated" width="1162" height="697" style="transform: translate3d(-88px, -53px, 0px);" viewBox="-88 -53 1162 697"><g><path class="leaflet-interactive" stroke="#ffb360" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="#ffb360" fill-opacity="0.7" fill-rule="evenodd" d="M550,288a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0 "></path><path class="leaflet-interactive" stroke="#ff0000" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="#ff0000" fill-opacity="0.7" fill-rule="evenodd" d="M473,253a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0 "></path><path class="leaflet-interactive" stroke="#ff0000" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="#ff0000" fill-opacity="0.7" fill-rule="evenodd" d="M504,281a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0 "></path><path class="leaflet-interactive" stroke="#ff0000" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="#ff0000" fill-opacity="0.7" fill-rule="evenodd" d="M512,305a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0 "></path><path class="leaflet-interactive" stroke="#ff0000" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="#ff0000" fill-opacity="0.7" fill-rule="evenodd" d="M512,328a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0 "></path><path class="leaflet-interactive" stroke="#ffb360" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="#ffb360" fill-opacity="0.7" fill-rule="evenodd" d="M482,284a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0 "></path><path class="leaflet-interactive" stroke="#80ffb4" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="#80ffb4" fill-opacity="0.7" fill-rule="evenodd" d="M381,236a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0 "></path><path class="leaflet-interactive" stroke="#ff0000" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="#ff0000" fill-opacity="0.7" fill-rule="evenodd" d="M489,312a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0 "></path><path class="leaflet-interactive" stroke="#00b5eb" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="#00b5eb" fill-opacity="0.7" fill-rule="evenodd" d="M459,419a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0 "></path><path class="leaflet-interactive" stroke="#ff0000" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="#ff0000" fill-opacity="0.7" fill-rule="evenodd" d="M492,322a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0 "></path><path class="leaflet-interactive" stroke="#ff0000" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="#ff0000" fill-opacity="0.7" fill-rule="evenodd" d="M492,313a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0 "></path><path class="leaflet-interactive" stroke="#ff0000" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="#ff0000" fill-opacity="0.7" fill-rule="evenodd" d="M445,258a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0 "></path><path class="leaflet-interactive" stroke="#ff0000" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="#ff0000" fill-opacity="0.7" fill-rule="evenodd" d="M447,293a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0 "></path><path class="leaflet-interactive" stroke="#ff0000" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="#ff0000" fill-opacity="0.7" fill-rule="evenodd" d="M442,349a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0 "></path><path class="leaflet-interactive" stroke="#8000ff" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="#8000ff" fill-opacity="0.7" fill-rule="evenodd" d="M519,178a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0 "></path><path class="leaflet-interactive" stroke="#ffb360" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="#ffb360" fill-opacity="0.7" fill-rule="evenodd" d="M503,335a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0 "></path><path class="leaflet-interactive" stroke="#ff0000" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="#ff0000" fill-opacity="0.7" fill-rule="evenodd" d="M531,236a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0 "></path><path class="leaflet-interactive" stroke="#ff0000" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="#ff0000" fill-opacity="0.7" fill-rule="evenodd" d="M492,313a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0 "></path><path class="leaflet-interactive" stroke="#ff0000" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="#ff0000" fill-opacity="0.7" fill-rule="evenodd" d="M490,247a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0 "></path></g></svg></div><div class="leaflet-pane leaflet-marker-pane"></div><div class="leaflet-pane leaflet-tooltip-pane"></div><div class="leaflet-pane leaflet-popup-pane"></div><div class="leaflet-proxy leaflet-zoom-animated" style="transform: translate3d(293066px, 382682px, 0px) scale(2048);"></div></div><div class="leaflet-control-container"><div class="leaflet-top leaflet-left"><div class="leaflet-control-zoom leaflet-bar leaflet-control"><a class="leaflet-control-zoom-in" href="#" title="Zoom in" role="button" aria-label="Zoom in">+</a><a class="leaflet-control-zoom-out" href="#" title="Zoom out" role="button" aria-label="Zoom out">−</a></div></div><div class="leaflet-top leaflet-right"></div><div class="leaflet-bottom leaflet-left"></div><div class="leaflet-bottom leaflet-right"><div class="leaflet-control-attribution leaflet-control"><a href="https://leafletjs.com/" title="A JS library for interactive maps">Leaflet</a> | Data by © <a href="http://openstreetmap.org/">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>.</div></div></div></div>
+        
+
+<script>    
+    
+            var map_f4b7160f6ab64b2581a336b8cce78f96 = L.map(
+                "map_f4b7160f6ab64b2581a336b8cce78f96",
+                {
+                    center: [43.6534817, -79.3839347],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a7d3783e19464d27802eb57a8c128269 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_f4b7160f6ab64b2581a336b8cce78f96);
+        
+    
+            var circle_marker_bf0674648dec4334aaed1ae523decd1b = L.circleMarker(
+                [43.6555, -79.3626],
+                {"bubblingMouseEvents": true, "color": "#ffb360", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffb360", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_f4b7160f6ab64b2581a336b8cce78f96);
+        
+    
+        var popup_cdb8445ae60e4b8f8222039177e93a83 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d48371e6fd424a9989e0eaddf7edd1da = $(`<div id="html_d48371e6fd424a9989e0eaddf7edd1da" style="width: 100.0%; height: 100.0%;">Regent Park, Harbourfront Cluster 4</div>`)[0];
+            popup_cdb8445ae60e4b8f8222039177e93a83.setContent(html_d48371e6fd424a9989e0eaddf7edd1da);
+        
+
+        circle_marker_bf0674648dec4334aaed1ae523decd1b.bindPopup(popup_cdb8445ae60e4b8f8222039177e93a83)
+        ;
+
+        
+    
+    
+            var circle_marker_854df31985004cbab1d2995a909b82cc = L.circleMarker(
+                [43.6641, -79.3889],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_f4b7160f6ab64b2581a336b8cce78f96);
+        
+    
+        var popup_5a9cd01ca4f742b2ba7e356523f9a831 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_10adcb630cef4893ae7e766897ff52b2 = $(`<div id="html_10adcb630cef4893ae7e766897ff52b2" style="width: 100.0%; height: 100.0%;">Queen&#39;s Park, Ontario Provincial Government Cluster 0</div>`)[0];
+            popup_5a9cd01ca4f742b2ba7e356523f9a831.setContent(html_10adcb630cef4893ae7e766897ff52b2);
+        
+
+        circle_marker_854df31985004cbab1d2995a909b82cc.bindPopup(popup_5a9cd01ca4f742b2ba7e356523f9a831)
+        ;
+
+        
+    
+    
+            var circle_marker_b9bb8340d853407fa06fe848953f8d3b = L.circleMarker(
+                [43.6572, -79.3783],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_f4b7160f6ab64b2581a336b8cce78f96);
+        
+    
+        var popup_5fd7c0a531d746ab83cc2be1d19f1f41 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f348b20bccf24d7dbf172661b636f36c = $(`<div id="html_f348b20bccf24d7dbf172661b636f36c" style="width: 100.0%; height: 100.0%;">Garden District, Ryerson Cluster 0</div>`)[0];
+            popup_5fd7c0a531d746ab83cc2be1d19f1f41.setContent(html_f348b20bccf24d7dbf172661b636f36c);
+        
+
+        circle_marker_b9bb8340d853407fa06fe848953f8d3b.bindPopup(popup_5fd7c0a531d746ab83cc2be1d19f1f41)
+        ;
+
+        
+    
+    
+            var circle_marker_939487df9acf4661b4fe6d9ba56dac98 = L.circleMarker(
+                [43.6513, -79.3756],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_f4b7160f6ab64b2581a336b8cce78f96);
+        
+    
+        var popup_59a773364af745489d58bdbb16109460 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_47d4e68f5eea4d1bafbbc22eb6d5eaa1 = $(`<div id="html_47d4e68f5eea4d1bafbbc22eb6d5eaa1" style="width: 100.0%; height: 100.0%;">St. James Town Cluster 0</div>`)[0];
+            popup_59a773364af745489d58bdbb16109460.setContent(html_47d4e68f5eea4d1bafbbc22eb6d5eaa1);
+        
+
+        circle_marker_939487df9acf4661b4fe6d9ba56dac98.bindPopup(popup_59a773364af745489d58bdbb16109460)
+        ;
+
+        
+    
+    
+            var circle_marker_a2c8b007645d441383472e951b28805b = L.circleMarker(
+                [43.6456, -79.3754],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_f4b7160f6ab64b2581a336b8cce78f96);
+        
+    
+        var popup_bfd9df53a7274ef995943004f13105a2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dc3e376254ee49d8ba2694d1d43c758a = $(`<div id="html_dc3e376254ee49d8ba2694d1d43c758a" style="width: 100.0%; height: 100.0%;">Berczy Park Cluster 0</div>`)[0];
+            popup_bfd9df53a7274ef995943004f13105a2.setContent(html_dc3e376254ee49d8ba2694d1d43c758a);
+        
+
+        circle_marker_a2c8b007645d441383472e951b28805b.bindPopup(popup_bfd9df53a7274ef995943004f13105a2)
+        ;
+
+        
+    
+    
+            var circle_marker_d7a3dc9fa28b44518478be5ac702e1aa = L.circleMarker(
+                [43.6564, -79.386],
+                {"bubblingMouseEvents": true, "color": "#ffb360", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffb360", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_f4b7160f6ab64b2581a336b8cce78f96);
+        
+    
+        var popup_9655d56bd74442c2bd5c97026c0ae648 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_316245f04bbe41fdb6adcdfdedf2bdd0 = $(`<div id="html_316245f04bbe41fdb6adcdfdedf2bdd0" style="width: 100.0%; height: 100.0%;">Central Bay Street Cluster 4</div>`)[0];
+            popup_9655d56bd74442c2bd5c97026c0ae648.setContent(html_316245f04bbe41fdb6adcdfdedf2bdd0);
+        
+
+        circle_marker_d7a3dc9fa28b44518478be5ac702e1aa.bindPopup(popup_9655d56bd74442c2bd5c97026c0ae648)
+        ;
+
+        
+    
+    
+            var circle_marker_6a777095c2964b58b49f4e1591a83c71 = L.circleMarker(
+                [43.6683, -79.4205],
+                {"bubblingMouseEvents": true, "color": "#80ffb4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#80ffb4", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_f4b7160f6ab64b2581a336b8cce78f96);
+        
+    
+        var popup_ca21eda990f74136b64185f78de2362a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5ce5da30c31147dc875a5b0a8f81c889 = $(`<div id="html_5ce5da30c31147dc875a5b0a8f81c889" style="width: 100.0%; height: 100.0%;">Christie Cluster 3</div>`)[0];
+            popup_ca21eda990f74136b64185f78de2362a.setContent(html_5ce5da30c31147dc875a5b0a8f81c889);
+        
+
+        circle_marker_6a777095c2964b58b49f4e1591a83c71.bindPopup(popup_ca21eda990f74136b64185f78de2362a)
+        ;
+
+        
+    
+    
+            var circle_marker_b625f77ff3bd46dd8e0c414bfdc16604 = L.circleMarker(
+                [43.6496, -79.3833],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_f4b7160f6ab64b2581a336b8cce78f96);
+        
+    
+        var popup_f44a74a82ced4b18a9f2a8675b3d6735 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4ae4ce9039c94057b1b70f3d8bbe30c4 = $(`<div id="html_4ae4ce9039c94057b1b70f3d8bbe30c4" style="width: 100.0%; height: 100.0%;">Richmond, Adelaide, King Cluster 0</div>`)[0];
+            popup_f44a74a82ced4b18a9f2a8675b3d6735.setContent(html_4ae4ce9039c94057b1b70f3d8bbe30c4);
+        
+
+        circle_marker_b625f77ff3bd46dd8e0c414bfdc16604.bindPopup(popup_f44a74a82ced4b18a9f2a8675b3d6735)
+        ;
+
+        
+    
+    
+            var circle_marker_b9c39659a5f84afaae6ac2523fe69f7a = L.circleMarker(
+                [43.623, -79.3936],
+                {"bubblingMouseEvents": true, "color": "#00b5eb", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#00b5eb", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_f4b7160f6ab64b2581a336b8cce78f96);
+        
+    
+        var popup_e78c276ef28b414b8190d56899a18404 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a377f6b2cdd646ffa14b72d1043724b9 = $(`<div id="html_a377f6b2cdd646ffa14b72d1043724b9" style="width: 100.0%; height: 100.0%;">Harbourfront East, Union Station, Toronto Islands Cluster 2</div>`)[0];
+            popup_e78c276ef28b414b8190d56899a18404.setContent(html_a377f6b2cdd646ffa14b72d1043724b9);
+        
+
+        circle_marker_b9c39659a5f84afaae6ac2523fe69f7a.bindPopup(popup_e78c276ef28b414b8190d56899a18404)
+        ;
+
+        
+    
+    
+            var circle_marker_a14112a9ed664798963cf2cb34b2d130 = L.circleMarker(
+                [43.6469, -79.3823],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_f4b7160f6ab64b2581a336b8cce78f96);
+        
+    
+        var popup_59a18f532f134b9390d13e2f60ad1e7f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_11e2fc3fb4244188b8aff55142503d3e = $(`<div id="html_11e2fc3fb4244188b8aff55142503d3e" style="width: 100.0%; height: 100.0%;">Toronto Dominion Centre, Design Exchange Cluster 0</div>`)[0];
+            popup_59a18f532f134b9390d13e2f60ad1e7f.setContent(html_11e2fc3fb4244188b8aff55142503d3e);
+        
+
+        circle_marker_a14112a9ed664798963cf2cb34b2d130.bindPopup(popup_59a18f532f134b9390d13e2f60ad1e7f)
+        ;
+
+        
+    
+    
+            var circle_marker_fd1ce9e238fb4d81b813b39099bfe845 = L.circleMarker(
+                [43.6492, -79.3823],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_f4b7160f6ab64b2581a336b8cce78f96);
+        
+    
+        var popup_fc704d35f4164a39a4acf9fc673c0506 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_90d0e078276c40e38d019a5a260c07a2 = $(`<div id="html_90d0e078276c40e38d019a5a260c07a2" style="width: 100.0%; height: 100.0%;">Commerce Court, Victoria Hotel Cluster 0</div>`)[0];
+            popup_fc704d35f4164a39a4acf9fc673c0506.setContent(html_90d0e078276c40e38d019a5a260c07a2);
+        
+
+        circle_marker_fd1ce9e238fb4d81b813b39099bfe845.bindPopup(popup_fc704d35f4164a39a4acf9fc673c0506)
+        ;
+
+        
+    
+    
+            var circle_marker_a51adfe7c7a848c7a1d339112da3d9cb = L.circleMarker(
+                [43.6629, -79.3987],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_f4b7160f6ab64b2581a336b8cce78f96);
+        
+    
+        var popup_b7dbf7fa09f747c785630ce97e632c89 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ce47df9088e5497b9ec33eeb667ca230 = $(`<div id="html_ce47df9088e5497b9ec33eeb667ca230" style="width: 100.0%; height: 100.0%;">University of Toronto, Harbord Cluster 0</div>`)[0];
+            popup_b7dbf7fa09f747c785630ce97e632c89.setContent(html_ce47df9088e5497b9ec33eeb667ca230);
+        
+
+        circle_marker_a51adfe7c7a848c7a1d339112da3d9cb.bindPopup(popup_b7dbf7fa09f747c785630ce97e632c89)
+        ;
+
+        
+    
+    
+            var circle_marker_a168b98613ec4d4c9577a2c669eab36a = L.circleMarker(
+                [43.6541, -79.3978],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_f4b7160f6ab64b2581a336b8cce78f96);
+        
+    
+        var popup_76337f4648ee42c9949b28bb1a6fc24c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_986cd69b0e7d4f508bb84478751d4419 = $(`<div id="html_986cd69b0e7d4f508bb84478751d4419" style="width: 100.0%; height: 100.0%;">Kensington Market, Chinatown, Grange Park Cluster 0</div>`)[0];
+            popup_76337f4648ee42c9949b28bb1a6fc24c.setContent(html_986cd69b0e7d4f508bb84478751d4419);
+        
+
+        circle_marker_a168b98613ec4d4c9577a2c669eab36a.bindPopup(popup_76337f4648ee42c9949b28bb1a6fc24c)
+        ;
+
+        
+    
+    
+            var circle_marker_486f3067e1a84c71aa2681e04b9733cd = L.circleMarker(
+                [43.6404, -79.3995],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_f4b7160f6ab64b2581a336b8cce78f96);
+        
+    
+        var popup_69ad812f233e4892a87a5da820dd7402 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1cab74e5c37a44e6909c18998468b378 = $(`<div id="html_1cab74e5c37a44e6909c18998468b378" style="width: 100.0%; height: 100.0%;">CN Tower, King and Spadina, Railway Lands, Harbourfront West, Bathurst Quay, South Niagara, Island airport Cluster 0</div>`)[0];
+            popup_69ad812f233e4892a87a5da820dd7402.setContent(html_1cab74e5c37a44e6909c18998468b378);
+        
+
+        circle_marker_486f3067e1a84c71aa2681e04b9733cd.bindPopup(popup_69ad812f233e4892a87a5da820dd7402)
+        ;
+
+        
+    
+    
+            var circle_marker_d61fab8d8e0a4f0da7cd780109d6987e = L.circleMarker(
+                [43.6827, -79.373],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_f4b7160f6ab64b2581a336b8cce78f96);
+        
+    
+        var popup_081d90e81c38446c89d725ca4e82016e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bc44bebe7ea346a990ede3f742eed72b = $(`<div id="html_bc44bebe7ea346a990ede3f742eed72b" style="width: 100.0%; height: 100.0%;">Rosedale Cluster 1</div>`)[0];
+            popup_081d90e81c38446c89d725ca4e82016e.setContent(html_bc44bebe7ea346a990ede3f742eed72b);
+        
+
+        circle_marker_d61fab8d8e0a4f0da7cd780109d6987e.bindPopup(popup_081d90e81c38446c89d725ca4e82016e)
+        ;
+
+        
+    
+    
+            var circle_marker_f3fda6bcd10c4c3d989dea02ac1ffbfb = L.circleMarker(
+                [43.6437, -79.3787],
+                {"bubblingMouseEvents": true, "color": "#ffb360", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffb360", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_f4b7160f6ab64b2581a336b8cce78f96);
+        
+    
+        var popup_e2eed943f14b47c09b2ba94c18aecdea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_86f8c00ad7cf436eb10956d75463e270 = $(`<div id="html_86f8c00ad7cf436eb10956d75463e270" style="width: 100.0%; height: 100.0%;">Stn A PO Boxes Cluster 4</div>`)[0];
+            popup_e2eed943f14b47c09b2ba94c18aecdea.setContent(html_86f8c00ad7cf436eb10956d75463e270);
+        
+
+        circle_marker_f3fda6bcd10c4c3d989dea02ac1ffbfb.bindPopup(popup_e2eed943f14b47c09b2ba94c18aecdea)
+        ;
+
+        
+    
+    
+            var circle_marker_d6f0947f35e343fe8bebbdfd5677f7d4 = L.circleMarker(
+                [43.6684, -79.3689],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_f4b7160f6ab64b2581a336b8cce78f96);
+        
+    
+        var popup_2dc41dcd2bd045368c08c2401b5fc73b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e430aa87d4654006be812c16a24e0990 = $(`<div id="html_e430aa87d4654006be812c16a24e0990" style="width: 100.0%; height: 100.0%;">St. James Town, Cabbagetown Cluster 0</div>`)[0];
+            popup_2dc41dcd2bd045368c08c2401b5fc73b.setContent(html_e430aa87d4654006be812c16a24e0990);
+        
+
+        circle_marker_d6f0947f35e343fe8bebbdfd5677f7d4.bindPopup(popup_2dc41dcd2bd045368c08c2401b5fc73b)
+        ;
+
+        
+    
+    
+            var circle_marker_2c437cdfc5914371ae6f2c0813272d2c = L.circleMarker(
+                [43.6492, -79.3823],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_f4b7160f6ab64b2581a336b8cce78f96);
+        
+    
+        var popup_a6865ee0bbe44619947fd75cb13f3528 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9500cbd2d3f7478489ae95a966896910 = $(`<div id="html_9500cbd2d3f7478489ae95a966896910" style="width: 100.0%; height: 100.0%;">First Canadian Place, Underground city Cluster 0</div>`)[0];
+            popup_a6865ee0bbe44619947fd75cb13f3528.setContent(html_9500cbd2d3f7478489ae95a966896910);
+        
+
+        circle_marker_2c437cdfc5914371ae6f2c0813272d2c.bindPopup(popup_a6865ee0bbe44619947fd75cb13f3528)
+        ;
+
+        
+    
+    
+            var circle_marker_88b1d034f078444cbc16a9e1574d273a = L.circleMarker(
+                [43.6656, -79.383],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_f4b7160f6ab64b2581a336b8cce78f96);
+        
+    
+        var popup_d8ad88c0b0964c0bbb36776e1e832079 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_71f63b52ea764f8ba4233c32b5c8ce1d = $(`<div id="html_71f63b52ea764f8ba4233c32b5c8ce1d" style="width: 100.0%; height: 100.0%;">Church and Wellesley Cluster 0</div>`)[0];
+            popup_d8ad88c0b0964c0bbb36776e1e832079.setContent(html_71f63b52ea764f8ba4233c32b5c8ce1d);
+        
+
+        circle_marker_88b1d034f078444cbc16a9e1574d273a.bindPopup(popup_d8ad88c0b0964c0bbb36776e1e832079)
+        ;
+
+        
+    
+</script></body></html>
